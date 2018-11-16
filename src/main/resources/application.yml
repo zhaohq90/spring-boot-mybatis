@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: spring-boot-simple
+  datasource:
+    url: jdbc:mysql://rm-bp1o892eutomay3940o.mysql.rds.aliyuncs.com:3306/uaa_db2?autoReconnect=true&useSSL=false&characterEncoding=utf-8
+    username: mzdb
+    password: MOziDB2018
