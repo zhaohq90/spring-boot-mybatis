@@ -11,50 +11,44 @@ import java.util.Date;
 @Table(name = "user")
 public class User {
 
-	@PK(auto = true)
-	private Long id;
+    @PK(auto = true)
+    private Long id;
 
-	private String name;
+    private String name;
 
-	private Date createDate;
+    private Date createDate;
 
-	public Long getId() {
-		return id;
-	}
-
-	public void setId(Long id) {
-		this.id = id;
-	}
-
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public Date getCreateDate() {
-		return createDate;
-	}
-
-	public void setCreateDate(Date createDate) {
-		this.createDate = createDate;
-	}
-
-    public void setCreateDate(String createDate) throws ParseException {
-        this.createDate = DateUtils.parseDate(createDate,new String[]{"yyyy-MM-dd","yyyy-MM-dd HH:mm:ss"});
+    public Long getId() {
+        return id;
     }
 
-	@Override
-	public String toString() {
-		return MessageFormat.format("'{'\"id\":{0},\"name\":\"{1}\"'}'",this.getId(),this.getName());
-	}
+    public void setId(Long id) {
+        this.id = id;
+    }
 
-	public static void main(String[] args) throws Exception{
-        DateUtils.parseDate("2016-01-05 12:12:32",new String[]{"yyyy-MM-dd","yyyy-MM-dd HH:mm:ss"});
+    public String getName() {
+        return name;
+    }
 
+    public void setName(String name) {
+        this.name = name;
+    }
 
-	}
+    public Date getCreateDate() {
+        return createDate;
+    }
+
+    public void setCreateDate(Date createDate) {
+        this.createDate = createDate;
+    }
+
+    public void setCreateDate(String createDate) throws ParseException {
+        this.createDate = DateUtils.parseDate(createDate, new String[]{"yyyy-MM-dd", "yyyy-MM-dd HH:mm:ss"});
+    }
+
+    @Override
+    public String toString() {
+        return MessageFormat.format("'{'\"id\":{0},\"name\":\"{1}\"'}'", this.getId(), this.getName());
+    }
 
 }
