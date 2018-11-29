@@ -1,6 +1,6 @@
-package io.springrain.mapper;
+package in.aprilfish.mapper;
 
-import io.aprilfish.mybatis.query.Example;
+import in.aprilfish.mybatis.query.Example;
 import org.springframework.stereotype.Component;
 
 import java.util.List;

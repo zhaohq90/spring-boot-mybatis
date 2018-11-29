@@ -1,6 +1,6 @@
-package io.springrain.mapper;
+package in.aprilfish.mapper;
 
-import io.aprilfish.mybatis.query.Example;
+import in.aprilfish.mybatis.query.Example;
 
 public class UserOrderExample extends Example {
 

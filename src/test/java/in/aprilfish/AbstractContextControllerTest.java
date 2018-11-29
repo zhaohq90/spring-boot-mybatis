@@ -1,4 +1,4 @@
-package io.springrain;
+package in.aprilfish;
 
 import org.junit.Before;
 import org.junit.runner.RunWith;

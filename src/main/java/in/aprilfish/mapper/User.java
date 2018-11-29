@@ -1,7 +1,7 @@
-package io.springrain.mapper;
+package in.aprilfish.mapper;
 
-import io.aprilfish.mybatis.annotations.PK;
-import io.aprilfish.mybatis.annotations.Table;
+import in.aprilfish.mybatis.annotations.PK;
+import in.aprilfish.mybatis.annotations.Table;
 import org.apache.commons.lang.time.DateUtils;
 
 import java.text.MessageFormat;

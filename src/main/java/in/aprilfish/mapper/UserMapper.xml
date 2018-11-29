@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
  <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
- <mapper namespace="io.springrain.mapper.UserMapper">
-    <select id="selectByPK" parameterType="long" resultType="io.springrain.mapper.User">
+ <mapper namespace="in.aprilfish.mapper.UserMapper">
+    <select id="selectByPK" parameterType="long" resultType="in.aprilfish.mapper.User">
         select * from user where id=4
     </select>
 
-    <select id="select" parameterType="io.springrain.mapper.User" resultType="io.springrain.mapper.User">
+    <select id="select" parameterType="in.aprilfish.mapper.User" resultType="in.aprilfish.mapper.User">
         select * from user
         <where>
             <if test="id != null">

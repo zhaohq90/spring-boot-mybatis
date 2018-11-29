@@ -1,7 +1,7 @@
-package io.springrain;
+package in.aprilfish;
 
-import io.springrain.mapper.User;
-import io.springrain.mapper.UserMapper;
+import in.aprilfish.mapper.User;
+import in.aprilfish.mapper.UserMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Assert;
 import org.junit.Test;

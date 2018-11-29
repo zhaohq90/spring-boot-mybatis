@@ -1,4 +1,4 @@
-package io.springrain.mapper;
+package in.aprilfish.mapper;
 
 import java.text.MessageFormat;
 

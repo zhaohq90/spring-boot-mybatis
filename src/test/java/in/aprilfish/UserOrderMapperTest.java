@@ -1,8 +1,8 @@
-package io.springrain;
+package in.aprilfish;
 
-import io.springrain.mapper.UserOrder;
-import io.springrain.mapper.UserOrderExample;
-import io.springrain.mapper.UserOrderMapper;
+import in.aprilfish.mapper.UserOrder;
+import in.aprilfish.mapper.UserOrderExample;
+import in.aprilfish.mapper.UserOrderMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Assert;
 import org.junit.Test;

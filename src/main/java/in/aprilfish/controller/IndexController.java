@@ -1,4 +1,4 @@
-package io.springrain.controller;
+package in.aprilfish.controller;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;

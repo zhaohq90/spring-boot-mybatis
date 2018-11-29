@@ -1,10 +1,10 @@
-package io.springrain;
+package in.aprilfish;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
-@MapperScan("io.springrain.mapper")
+@MapperScan("in.aprilfish.mapper")
 @SpringBootApplication
 public class SpringApplication extends WebMvcConfigurerAdapter {
 

@@ -1,7 +1,6 @@
-package io.springrain.mapper;
+package in.aprilfish.mapper;
 
-
-import io.aprilfish.mybatis.mapper.CrudMapper;
+import in.aprilfish.mybatis.mapper.CrudMapper;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
