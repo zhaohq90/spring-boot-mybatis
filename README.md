@@ -1,4 +1,8 @@
 # spring-boot-mybatis
+spring-boot与mybatis-spring-boot-starter集成示例。
+
+> 注：Entity对象应在主键字段增加@PK注解声明主键
+
 ## TODO
 - 完善示例，测试是否兼容原生 &radic;
 - 增加查询扩展 &radic;

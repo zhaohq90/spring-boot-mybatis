@@ -2,14 +2,6 @@ spring:
   application:
     name: spring-boot-mybatis
   datasource:
-    platform: h2
-    url: jdbc:h2:file:~/dev
-    schema: classpath:schema.sql
-    data: classpath:data.sql
-    username: root
-    password: 123456
-  h2:
-    console:
-      enabled: true
-      settings:
-        web-allow-others: true
+    url: jdbc:mysql://rm-bp1o892eutomay3940o.mysql.rds.aliyuncs.com:3306/dev_db?autoReconnect=true&useSSL=false&characterEncoding=utf-8
+    username: mzdb
+    password: MOziDB2018
