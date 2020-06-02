@@ -11,7 +11,7 @@ import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = SpringApplication.class)
+@SpringBootTest(classes = SpringApplication.class,webEnvironment = SpringBootTest.WebEnvironment.MOCK)
 @WebAppConfiguration
 public class AbstractContextControllerTest {
 
@@ -20,7 +20,7 @@ public class AbstractContextControllerTest {
     protected WebApplicationContext wac;
 
     // 模拟MVC对象，通过MockMvcBuilders.webAppContextSetup(this.wac).build()初始化。
-    private MockMvc mockMvc;
+    protected MockMvc mockMvc;
 
     @Before
     public void setup() {
