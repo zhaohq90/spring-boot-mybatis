@@ -9,3 +9,4 @@ spring-boot与mybatis-spring-boot-starter集成示例。
 - 增加链式调用示例
 - 增加代码生成器项目(编译时生成代码/模板生成)
 - 测试事务
+- 缓存机制
