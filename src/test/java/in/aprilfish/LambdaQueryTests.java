@@ -27,4 +27,16 @@ public class LambdaQueryTests extends AbstractTest {
 		Assert.assertEquals("admin", userOrders.get(0).getName());
 	}
 
+	@Test
+	public void selectByLambdaQueryOr() {
+		LambdaQuery query = new LambdaQuery();
+		query.eq(UserOrder::getId, 1);
+		query.or();
+		query.like(UserOrder::getName, "admin");
+
+		List<UserOrder> userOrders = userOrderMapper.selectByExample(query);
+
+		Assert.assertEquals("admin", userOrders.get(0).getName());
+	}
+
 }
