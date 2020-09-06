@@ -33,6 +33,7 @@ public class LambdaQueryTests extends AbstractTest {
 		query.eq(UserOrder::getId, 1);
 		query.or();
 		query.like(UserOrder::getName, "admin");
+		query.setOrderByClause("id desc");
 
 		List<UserOrder> userOrders = userOrderMapper.selectByExample(query);
 
